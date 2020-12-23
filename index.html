@@ -12,213 +12,119 @@
 
 
     <body>
-        <h1 class="title">Stuff I need to do</h1> 
+       
+            <h1 class="title">Stuff I need to do</h1> 
 
-        <div class="all-tasks">
-            <h2 class="task-list-title">My List</h2>
+            <div class="all-tasks">
+                <h2 class="task-list-title">My List</h2>
 
-            <ul class="task-list">
-            <li class="active-list">youtube</li>
-            <li>work</li>
-            <li>grocery</li>
-            </ul>
+                <ul class="task-list">
+                <li class="active-list">youtube</li>
+                <li>work</li>
+                <li>grocery</li>
+                </ul>
 
-            <form action="">
-                <input 
-                type="text"
-                class="new list"
-                placeholder="new list name"
-                aria-label="new list name"
-                />
-                <button class="btn list" aria-label="create new list">+</button>
-            </form>
-        </div>
-        
-        <!-- Card one start -->
-        <div class="todo-list1">
-            <div class="todo-header">
-                <h2 class="list-title">youtube</h2>
-                <p class="task-count">3 task remaining</p>
+                <form action="">
+                    <input 
+                    type="text"
+                    class="new list"
+                    placeholder="new list name"
+                    aria-label="new list name"
+                    />
+                    <button class="btn create" aria-label="create new list">+</button>
+                </form>
             </div>
-
-            <div class="todo-body">
-                <div class="tasks">
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-1"
-                        />
-                        <label for="task-1">
-                            <span class="custom-checkbox"></span>
-                            task
-                        </label>
-                    </div>
-                    <!-- task 1  -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-2"
-                        />
-                        <label for="task-2">
-                            <span class="custom-checkbox"></span>
-                            task2
-                        </label>
-                    </div>
-                    <!-- task 2 -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-3"
-                        />
-                        <label for="task-3">
-                            <span class="custom-checkbox"></span>
-                            task3 
-                        </label>
-                    </div>
-                    <!-- task 3  -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-4"
-                        />
-                        <label for="task-4">
-                            <span class="custom-checkbox"></span>
-                            task3 
-                        </label>
-                    </div>
-                    <!-- task 4  -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-5"
-                        />
-                        <label for="task-5">
-                            <span class="custom-checkbox"></span>
-                            task3 
-                        </label>
-                    </div>
-                    <!-- task 5  -->
+            
+            <!-- Card one start -->
+            <div class="todo-list">
+                <div class="todo-header">
+                    <h2 class="list-title">youtube</h2>
+                    <p class="task-count">3 task remaining</p>
                 </div>
 
-                <div class="new-task-creator">
-                    <form action="">
-                        <input 
-                        type="text"
-                        class="new list"
-                        placeholder="new task name"
-                        aria-label="new task name"
-                        />
-                        <button class="btn task" aria-label="create new task">+</button>
-                    </form>
+                <div class="todo-body">
+                    <div class="tasks">
+                        <div class="task">
+                            <input 
+                            type="checkbox"
+                            id="task-1"
+                            />
+                            <label for="task-1">
+                                <span class="custom-checkbox"></span>
+                                task
+                            </label>
+                        </div>
+                        <!-- task 1  -->
 
+                        <div class="task">
+                            <input 
+                            type="checkbox"
+                            id="task-2"
+                            />
+                            <label for="task-2">
+                                <span class="custom-checkbox"></span>
+                                task2
+                            </label>
+                        </div>
+                        <!-- task 2 -->
+
+                        <div class="task">
+                            <input 
+                            type="checkbox"
+                            id="task-3"
+                            />
+                            <label for="task-3">
+                                <span class="custom-checkbox"></span>
+                                task3 
+                            </label>
+                        </div>
+                        <!-- task 3  -->
+
+                        <div class="task">
+                            <input 
+                            type="checkbox"
+                            id="task-4"
+                            />
+                            <label for="task-4">
+                                <span class="custom-checkbox"></span>
+                                task3 
+                            </label>
+                        </div>
+                        <!-- task 4  -->
+
+                        <div class="task">
+                            <input 
+                            type="checkbox"
+                            id="task-5"
+                            />
+                            <label for="task-5">
+                                <span class="custom-checkbox"></span>
+                                task3 
+                            </label>
+                        </div>
+                        <!-- task 5  -->
+                    </div>
+
+                    <div class="new-task-creator">
+                        <form action="">
+                            <input 
+                            type="text"
+                            class="new task"
+                            placeholder="new task name"
+                            aria-label="new task name"
+                            />
+                            <button class="btn create" aria-label="create new task">+</button>
+                        </form>
+
+                    </div>
+
+                    <div class="delete-stuff">
+                        <button class="btn delete">Clear completed tasks</button>
+                        <button class="btn delete">Delete list</button>
+                    </div> 
                 </div>
-
-                <div class="delete-stuff">
-                    <button class="btn delete">Clear completed tasks</button>
-                    <button class="btn delete">Delete list</button>
-                </div> 
             </div>
-        </div>
-        <!-- card one end -->
-
-        <!-- card two start -->
-        <div class="todo-list2">
-            <div class="todo-header">
-                <h2 class="list-title">youtube</h2>
-                <p class="task-count">3 task remaining</p>
-            </div>
-
-            <div class="todo-body">
-                <div class="tasks">
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-1"
-                        />
-                        <label for="task-1">
-                            <span class="custom-checkbox"></span>
-                            task
-                        </label>
-                    </div>
-                    <!-- task 1  -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-2"
-                        />
-                        <label for="task-2">
-                            <span class="custom-checkbox"></span>
-                            task2
-                        </label>
-                    </div>
-                    <!-- task 2 -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-3"
-                        />
-                        <label for="task-3">
-                            <span class="custom-checkbox"></span>
-                            task3 
-                        </label>
-                    </div>
-                    <!-- task 3  -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-4"
-                        />
-                        <label for="task-4">
-                            <span class="custom-checkbox"></span>
-                            task3 
-                        </label>
-                    </div>
-                    <!-- task 4  -->
-
-                    <div class="task">
-                        <input 
-                         type="checkbox"
-                         id="task-5"
-                        />
-                        <label for="task-5">
-                            <span class="custom-checkbox"></span>
-                            task3 
-                        </label>
-                    </div>
-                    <!-- task 5  -->
-                </div>
-
-                <div class="new-task-creator">
-                    <form action="">
-                        <input 
-                        type="text"
-                        class="new list"
-                        placeholder="new task name"
-                        aria-label="new task name"
-                        />
-                        <button class="btn task" aria-label="create new task">+</button>
-                    </form>
-
-                </div>
-
-                <div class="delete-stuff">
-                    <button class="btn delete">Clear completed tasks</button>
-                    <button class="btn delete">Delete list</button>
-                </div> 
-            </div>
-        </div>
-        <!-- card two end -->
-
-        
-
-
+            <!-- card one end -->
     <script src="script.js"></script>   
     </body>
 
