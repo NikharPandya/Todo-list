@@ -109,7 +109,7 @@ form{
 }
 
 .new::placeholder {
-    opacity: 0.4;
+    opacity: 1.2;
 }
 
 .new:focus{
@@ -251,7 +251,17 @@ form{
     bottom: -35px;
 }
 
+.made-by {
+    position: fixed;
+    color: var(--clr-light);
+    opacity: 0.7;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    transition: color 200ms;
+  }
 
-
-
-
+.made-by:hover {
+    color: var(--clr-primary);
+}

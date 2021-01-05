@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>  
     </head>
 
 
@@ -17,17 +18,17 @@
 
             <div class="all-tasks">
                 <h2 class="task-list-title">My List</h2>
-
-                <ul class="task-list">
-                <li class="list-name active-list">youtube</li>
+                <ul class="task-list"Sdata-lists>
+                <!-- <li class="list-name active-list">youtube</li>
                 <li class="list-name">work</li>
-                <li class="list-name">grocery</li>
+                <li class="list-name">grocery</li> -->
                 </ul>
 
-                <form action="">
+                <form action="" data-new-list-form>
                     <input 
                     type="text"
                     class="new list"
+                    data-new-list-input
                     placeholder="new list name"
                     aria-label="new list name"
                     />
@@ -79,30 +80,7 @@
                             </label>
                         </div>
                         <!-- task 3  -->
-
-                        <div class="task">
-                            <input 
-                            type="checkbox"
-                            id="task-4"
-                            />
-                            <label for="task-4">
-                                <span class="custom-checkbox"></span>
-                                task3 
-                            </label>
-                        </div>
-                        <!-- task 4  -->
-
-                        <div class="task">
-                            <input 
-                            type="checkbox"
-                            id="task-5"
-                            />
-                            <label for="task-5">
-                                <span class="custom-checkbox"></span>
-                                task3 
-                            </label>
-                        </div>
-                        <!-- task 5  -->
+                        
                     </div>
 
                     <div class="new-task-creator">
@@ -120,12 +98,17 @@
 
                     <div class="delete-stuff">
                         <button class="btn delete">Clear completed tasks</button>
-                        <button class="btn delete">Delete list</button>
+                        <button class="btn delete" data-delete-list-button>Delete list</button>
                     </div> 
                 </div>
             </div>
-            <!-- card one end -->
-    <script src="script.js"></script>   
+            <!-- card one end --> 
+
+            <footer>
+                <a class="made-by" href="https://www.linkedin.com/in/nikhar-pandya" >Made By Nikhar Pandya</a>
+             </footer>
     </body>
+
+    
 
 </html>
