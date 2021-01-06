@@ -254,6 +254,7 @@ form{
 .made-by {
     position: fixed;
     color: var(--clr-light);
+    font-size: 1rem;
     opacity: 0.7;
     bottom: 10%;
     width: 100%;
