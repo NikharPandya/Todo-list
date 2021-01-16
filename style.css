@@ -1,8 +1,8 @@
 :root {
-    --clr-primary: #ff4d4d;
-    --clr-light: #f4f4f4;
-    --clr-dark: #333;
-    --clr-warning: rgb(200, 36, 36);
+    --clr-primary: rgb(54, 112, 199);
+  --clr-light: #f4f4f4;
+  --clr-dark: #333;
+  --clr-warning: rgb(99, 36, 36);
 }
 
 *,
@@ -21,7 +21,7 @@ body {
     font-family: 'Caveat', cursive;
     font-weight: 300;
     font-size: 1.5rem;
-    background-color: var(--clr-dark);
+    background-color: var(--clr-primary);
     color: var(--clr-light);
 
     display: grid;
@@ -38,7 +38,7 @@ body {
     text-align: center;
     font-size: calc(7vw + 2rem);
     font-weight: 900;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.1);
     letter-spacing: 2px;
     margin: -0.2em 0 0.5em;
 }
@@ -92,7 +92,7 @@ form{
 }
 
 .btn.delete:hover {
-    color: var(--clr-primary);
+    color: var(--clr-warning);
 }
 
 .new {
@@ -163,7 +163,7 @@ form{
 } 
 
 .new-task-creator .create {
-    color: var(--clr-dark);
+    color: var(--clr-primary);
 }
 
 [type="checkbox"] {
@@ -264,5 +264,5 @@ form{
   }
 
 .made-by:hover {
-    color: var(--clr-primary);
+    color: var(--clr-light);
 }
